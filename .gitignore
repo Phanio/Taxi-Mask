@@ -1,8 +1,8 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+!**/taxi-mask-backend/src/main/**/target/
+!**/taxi-mask-backend/src/test/**/target/
 
 ### STS ###
 .apt_generated
@@ -20,7 +20,7 @@ target/
 *.ipr
 
 ### NetBeans ###
-/nbproject/private/
+/taxi-mask-backend/nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
