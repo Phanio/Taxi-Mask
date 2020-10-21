@@ -1,4 +1,4 @@
-package com.example.Mumen.Project.controllers;
+package fr.et.intechinfo.mousqinfos.taximask.controllers;
 
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.Mumen.Project.models.Client;
-import com.example.Mumen.Project.services.ClientService;
+import fr.et.intechinfo.mousqinfos.taximask.models.Client;
+import fr.et.intechinfo.mousqinfos.taximask.services.ClientService;
 
 @RestController
 public class ClientController {

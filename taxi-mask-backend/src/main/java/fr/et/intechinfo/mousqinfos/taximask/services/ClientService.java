@@ -1,8 +1,8 @@
-package com.example.Mumen.Project.services;
+package fr.et.intechinfo.mousqinfos.taximask.services;
 
 import java.util.List;
 
-import com.example.Mumen.Project.models.Client;
+import fr.et.intechinfo.mousqinfos.taximask.models.Client;
 
 public interface ClientService {
 	

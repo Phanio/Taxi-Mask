@@ -1,9 +1,9 @@
-package com.example.Mumen.Project.repository;
+package fr.et.intechinfo.mousqinfos.taximask.repository;
 
+import fr.et.intechinfo.mousqinfos.taximask.models.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.Mumen.Project.models.Client;
 @Repository
 public interface ClientRepository extends JpaRepository<Client, Long> {
 

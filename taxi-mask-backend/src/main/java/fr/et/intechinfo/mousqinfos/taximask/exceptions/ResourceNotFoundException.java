@@ -1,4 +1,4 @@
-package com.example.Mumen.Project.exceptions;
+package fr.et.intechinfo.mousqinfos.taximask.exceptions;
 
 import org.springframework.web.bind.annotation.ResponseStatus;
 

@@ -8,11 +8,11 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>Mumen-Project</artifactId>
+	<groupId>fr.et.intechinfo.mousqinfos</groupId>
+	<artifactId>Taxi-Mask</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Mumen-Project</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Taxi-Mask</name>
+	<description>Taxi-Mask app </description>
 
 	<properties>
 		<java.version>11</java.version>

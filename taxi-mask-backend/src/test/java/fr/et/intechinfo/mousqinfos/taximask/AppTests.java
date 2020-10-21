@@ -1,10 +1,10 @@
-package com.example.Mumen.Project;
+package fr.et.intechinfo.mousqinfos.taximask;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MumenProjectApplicationTests {
+class AppTests {
 
 	@Test
 	void contextLoads() {

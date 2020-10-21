@@ -1,4 +1,4 @@
-package com.example.Mumen.Project.models;
+package fr.et.intechinfo.mousqinfos.taximask.models;
 
 import java.util.Date;
 

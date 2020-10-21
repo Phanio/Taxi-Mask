@@ -1,4 +1,4 @@
-package com.example.Mumen.Project.controllers;
+package fr.et.intechinfo.mousqinfos.taximask.controllers;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.Mumen.Project.exceptions.ResourceNotFoundException;
-import com.example.Mumen.Project.models.Commande;
-import com.example.Mumen.Project.repository.ClientRepository;
-import com.example.Mumen.Project.repository.CommandeRepository;
+import fr.et.intechinfo.mousqinfos.taximask.exceptions.ResourceNotFoundException;
+import fr.et.intechinfo.mousqinfos.taximask.models.Commande;
+import fr.et.intechinfo.mousqinfos.taximask.repository.ClientRepository;
+import fr.et.intechinfo.mousqinfos.taximask.repository.CommandeRepository;
 
 @RestController
 public class CommandeController {

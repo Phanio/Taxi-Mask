@@ -1,15 +1,14 @@
-package com.example.Mumen.Project.services;
+package fr.et.intechinfo.mousqinfos.taximask.services;
 
 import java.util.List;
 import java.util.Optional;
 
+import fr.et.intechinfo.mousqinfos.taximask.exceptions.ResourceNotFoundException;
+import fr.et.intechinfo.mousqinfos.taximask.models.Client;
+import fr.et.intechinfo.mousqinfos.taximask.repository.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import com.example.Mumen.Project.exceptions.ResourceNotFoundException;
-import com.example.Mumen.Project.models.Client;
-import com.example.Mumen.Project.repository.ClientRepository;
 
 @Service
 @Transactional
