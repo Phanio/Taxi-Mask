@@ -13,4 +13,7 @@ class AppTests {
 		assertEquals(1, 1);
 	}
 
+	@Test
+	void itShouldFail(){ assertEquals(0, 1);}
+
 }
